@@ -1,0 +1,68 @@
+• Uso de React, hooks e Typescript; - OK
+• Apresentação dos estados atuais de cada membro; -OK
+• Controle de movimentos; - OK
+• Gestão de estados usando Redux; - OK 
+• Arquitetura,organização do código e componentização; - OK
+• Testes unitários das regras de negócios.
+
+## Ações Previstas para o ROBO
+
+o Braço Esquerdo
+    ▪ Cotovelo 
+        1. Em Repouso - PADRÃO
+        2. Levemente Contraído
+        3. Contraído
+        4. Fortemente Contraído
+    ▪ Pulso
+        1. Rotação para -90°
+        2. Rotação para -45°
+        3. Em Repouso - PADRÃO
+        4. Rotação para 45°
+        5. Rotação para 90°
+        6. Rotação para 135°
+        7. Rotação para 180°
+
+o Braço Direito
+    ▪ Cotovelo
+        1. Em Repouso - PADRÃO
+        2. Levemente Contraído
+        3. Contraído
+        4. Fortemente Contraído
+    ▪ Pulso
+        1. Rotação para -90°
+        2. Rotação para -45°
+        3. Em Repouso - PADRÃO
+        4. Rotação para 45°
+        5. Rotação para 90°
+        6. Rotação para 135°
+        7. Rotação para 180°
+o CABEÇA
+    o Rotação
+        1. Rotação -90°
+        2. Rotação -45°
+        3. Em Repouso - PADRÃO
+        4. Rotação 45°
+        5. Rotação 90°
+    o Inclinação
+        1. Para Cima
+        2. Em Repouso - PADRÃO
+        3. Para Baixo
+
+
+
+## Restrições para o funcionamento do projeto.
+
+•   O estado inicial dos movimentos é Em Repouso. - OK
+
+•   Só poderá movimentar o Pulso caso o Cotovelo esteja Fortemente Contraído. - OK
+
+•   Só  poderá Rotacionar a Cabeça caso  sua Inclinação da Cabeça não  esteja  
+em  estado Para Baixo. - OK
+
+•   Ao  realizar  a  progressão  de  estados,  é  necessário  que  sempre  siga
+a  ordem  crescente  ou decrescente,  por  exemplo,  a  partir  do  estado  4,  
+pode-se  ir  para  os  estados  3  ou  5,  nunca pulando um estado. - OK
+
+•   Atenção  aos  limites!  Se  tentar  enviar  um  estado  inválido  você  irá
+corromper  o  sistema  do ROBO. - OK
+ 
